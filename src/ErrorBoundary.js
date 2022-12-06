@@ -27,8 +27,8 @@ class ErrorBoundary extends Component {
     } else if (this.state.hasError) {
       return (
         <h2>
-          There was an error.
-          <Link to="/">Click here</Link> to go back to the homepage
+          There was an error. <Link to="/">Click here</Link> to go back to the
+          homepage
         </h2>
       );
     }
